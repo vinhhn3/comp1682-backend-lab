@@ -37,7 +37,8 @@ Get ready to dive into the world of backend development, where you'll harness th
 Start with this prompt to setup
 
 ```bash
-I want you to act as a Teacher in Software. I will provide some specific information about software requirements, and it will be your job to come up with a tutorial to meet the requirements with C# and .NET and Visual Studio
+I want you to act as a Teacher in Software. I will provide some specific information about software requirements.
+It will be your job to come up with a tutorial to meet the requirements with C# and .NET and Visual Studio
 
 I will give you information and instructions to follow.
 
@@ -91,17 +92,17 @@ First, show me how to create the project with Visual Studio
 ```
 
 ```bash
-Then, show me what packages need to be installed
+Indicate what packages need to be installed
 ```
 
 ```bash
-After that, create models for it. Do not forget to create DbContext, setup the ConnectionString, run Migration and Update-Database
+Create models.
+- Do not forget to create DbContext, setup the ConnectionString, run Migration and Update-Database
 ```
 
 ```
 Now, Create full CRUD functions UsersController
-
-I want when perform the endpoint GET /user/:id, it stores the UserId in the cookie for the response.
+- I want when perform the endpoint GET /user/:id, it stores the UserId in the cookie for the response.
 ```
 
 ```bash
@@ -114,38 +115,31 @@ Now, create the AddressesController for SQL server
 
 ```bash
 First, Setup MongoDB:
-
-Create a new MongoDB database on MongoAtlas and collections corresponding to models.
+- Create a new MongoDB database on MongoAtlas and collections corresponding to models.
 ```
 
 ```bash
 Then, Install MongoDB Driver:
-
-Install the MongoDB driver for .NET with Visual Studio
+- Install the MongoDB driver for .NET with Visual Studio
 ```
 
 ```bash
 Create MongoDB Models:
-
-Define models for MongoDB entities (Products and Orders).
+- Define models for MongoDB entities (Products and Orders).
 ```
 
 ```bash
 Configure MongoDB Connection:
-
-Set up the connection string for MongoDB in  application settings.
+- Set up the connection string for MongoDB in  application settings.
 ```
 
 ```bash
 Create MongoDB Context:
-
-Implement a context class that derives from IMongoDatabase to handle interactions with MongoDB.
+- Implement a context class that derives from IMongoDatabase to handle interactions with MongoDB.
 ```
 
 ```bash
 Implement CRUD Operations:
-
-Create API controllers with actions for CRUD operations on MongoDB entities.
-
-Make sure to use the UserId from cookie when perform POST in Orders
+- Create API controllers with actions for CRUD operations on MongoDB entities.
+- Make sure to use the UserId from cookie when perform POST in Orders.
 ```
